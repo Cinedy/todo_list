@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App Wireframe</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #7C444F;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .search-bar {
+            flex: 1;
+            margin: 0 20px;
+        }
+
+        header input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+        }
+
+        main {
+            display: flex;
+            flex: 1;
+        }
+
+        .sidebar {
+            width: 25%;
+            background-color: #E16A54;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar h2 {
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        .sidebar .calendar {
+            background-color: #F39E60;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .sidebar .filters {
+            margin-top: 10px;
+        }
+
+        .sidebar button {
+            background-color: #9F5255;
+            color: white;
+            border: none;
+            padding: 10px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .content {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content .date-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .content .tasks {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .content .task {
+            padding: 15px;
+            background-color: white;
+            border: 1px solid #F39E60;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .content .task.completed {
+            background-color: #F9E6D2;
+            text-decoration: line-through;
+        }
+
+        footer {
+            background-color: #7C444F;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My To-Do List</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Search tasks...">
+        </div>
+        <button>⚙️</button>
+    </header>
+    <main>
+        <div class="sidebar">
+            <h2>Calendar</h2>
+            <div class="calendar">[Calendar Placeholder]</div>
+            <h2>Filters</h2>
+            <div class="filters">
+                <button>All Tasks</button>
+                <button>Completed</button>
+                <button>Pending</button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="date-header">
+                <h2>Tasks for December 26, 2024</h2>
+                <button>+ Add Task</button>
+            </div>
+            <div class="tasks">
+                <div class="task">
+                    <span>Buy groceries</span>
+                    <div>
+                        <button>✏️</button>
+                        <button>✅</button>
+                        <button>❌</button>
+                    </div>
+                </div>
+                <div class="task completed">
+                    <span>Finish project</span>
+                    <div>
+                        <button>✏️</button>
+                        <button>✅</button>
+                        <button>❌</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        You've completed 5/10 tasks today. Keep going!
+    </footer>
+</body>
+</html>

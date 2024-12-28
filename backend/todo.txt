@@ -1,0 +1,4 @@
+design frontend
+create MVP
+daily tasks
+calendar 

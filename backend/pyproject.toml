@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "todo-list"
+version = "0.1.0"
+description = "This is a to-do list."
+authors = ["Silje Melling <silje.melling94@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies] 
+python = "^3.13"
+fastapi = {extras = ["standard"], version = "^0.115.6"}
+pydantic = "^2.10.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
