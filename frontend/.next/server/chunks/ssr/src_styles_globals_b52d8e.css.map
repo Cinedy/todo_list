@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/styles/globals.css"],"sourcesContent":["body {\n  background-color: #FFF7EF;\n}\n\n.footer {\n  font: bolder;\n}"],"names":[],"mappings":"AAAA;;;;AAIA"}},
+    {"offset": {"line": 8, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
