@@ -1,0 +1,13 @@
+/* [project]/src/components/header/header.css [app-client] (css) */
+.header {
+  grid-row-start: 1;
+  display: flex;
+  background: linear-gradient(#391d1e, #9f5255);
+  width: 100%;
+  padding: 90px;
+  color: #fff7ef;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+/*# sourceMappingURL=src_components_header_header_b52d8e.css.map*/

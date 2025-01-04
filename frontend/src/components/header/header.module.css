@@ -1,0 +1,10 @@
+.header {
+    grid-row-start: 1;
+    display: flex;
+    background: linear-gradient(180deg, #391D1E, #9F5255);
+    width: 100%;
+    padding: 90px;
+    color: #FFF7EF;
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
