@@ -19,17 +19,13 @@ def create_task(task_name: str) -> str:
 @router.patch("/update")
 def update_task(id: int, task_name: Optional[str] = None, status: Optional[bool] = None) -> str:
     todo_list = ToDoSqlService()
-
     # Update task name if provided
     if task_name:
         todo_list.cursor.execute("UPDATE tasks SET name = ? WHERE id = ?", (task_name, id))
-
     # Update task status if provided
     if status is not None:
         todo_list.cursor.execute("UPDATE tasks SET done = ? WHERE id = ?", (1 if status else 0, id))
-
     todo_list.conn.commit()
-
     return f"Task {id} updated!"
 
 @router.delete("/delete")
