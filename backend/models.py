@@ -32,8 +32,7 @@ class ToDoSqlService:
     def view_tasks(self) -> list[Task]:
         self.cursor.execute("SELECT id, name, done FROM tasks")
         tasks = self.cursor.fetchall()
-        print(tasks)
-        return [Task(id=task["id"], name=task["name"], done=task["done"] == 1) for task in tasks]
+        return [Task(id=task["id"], name=task["name"], status=bool(task["done"])) for task in tasks]
         
     def mark_done(self, task_id):
         try:
