@@ -1,10 +1,10 @@
 /* [project]/src/components/footer/footer.module.css [app-client] (css) */
 .footer-module__tUdqrq__footer {
-  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
   display: flex;
   background: linear-gradient(0deg, #391d1e, #9f5255);
   width: 100%;
-  padding: 40px;
   justify-content: center;
   color: #fff7ef;
 }
