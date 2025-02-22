@@ -1,9 +1,9 @@
 .footer {
-    grid-row-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
     display: flex;
     background: linear-gradient(0deg, #391D1E, #9F5255);
     width: 100%;
-    padding: 40px;
     justify-content: center;
     color: #FFF7EF;
   }

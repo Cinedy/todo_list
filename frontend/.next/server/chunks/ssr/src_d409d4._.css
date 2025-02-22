@@ -1,0 +1,46 @@
+/* [project]/src/styles/page.module.css [app-client] (css) */
+.page-module__UBDEvq__page {
+  display: grid;
+  grid-template-rows: 20px 1fr 20px;
+  align-items: center;
+  justify-items: center;
+  min-height: 100svh;
+}
+
+
+/* [project]/src/components/header/header.module.css [app-client] (css) */
+.header-module__6rtY2W__header {
+  grid-row-start: 1;
+  display: grid;
+  background: linear-gradient(#391d1e, #9f5255);
+  width: 100%;
+  padding: 90px;
+  color: #fff7ef;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+
+/* [project]/src/components/footer/footer.module.css [app-client] (css) */
+.footer-module__tUdqrq__footer {
+  grid-row-start: 3;
+  display: grid;
+  background: linear-gradient(0deg, #391d1e, #9f5255);
+  width: 100%;
+  padding: 40px;
+  justify-content: center;
+  color: #fff7ef;
+}
+
+
+/* [project]/src/components/menu/menu.module.css [app-client] (css) */
+.menu-module__RpGYTG__menu {
+  display: grid;
+  background-color: red;
+  padding: 20px;
+  text-align: center;
+  color: #f17900;
+}
+
+
+/*# sourceMappingURL=src_d409d4._.css.map*/
