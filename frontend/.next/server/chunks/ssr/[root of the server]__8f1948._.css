@@ -3,12 +3,6 @@ body {
   background-color: #fff7ef;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 
 /* [next]/internal/font/google/roboto_459e61e0.module.css [app-client] (css) */
 @font-face {
@@ -393,17 +387,11 @@ body {
 }
 
 .page-module__UBDEvq__main {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  outline: 1px dashed #50b602;
-  background-color: #ff00000d;
+  grid-template-columns: 1fr 3fr;
 }
 
 .page-module__UBDEvq__pageContent {
-  display: grid;
   grid-template-columns: 1fr 1fr;
-  outline: 1px dashed red;
-  background-color: #2117170d;
 }
 
 
@@ -418,16 +406,4 @@ body {
 }
 
 
-/* [project]/src/components/footer/footer.module.css [app-client] (css) */
-.footer-module__tUdqrq__footer {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  display: flex;
-  background: linear-gradient(0deg, #391d1e, #9f5255);
-  width: 100%;
-  justify-content: center;
-  color: #fff7ef;
-}
-
-
-/*# sourceMappingURL=%5Broot%20of%20the%20server%5D__fcc485._.css.map*/
+/*# sourceMappingURL=%5Broot%20of%20the%20server%5D__8f1948._.css.map*/

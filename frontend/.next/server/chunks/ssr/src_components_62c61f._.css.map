@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/siljemelling/Koding/portfolioProjects/todo_list/frontend/src/components/menu/menu.module.css"],"sourcesContent":[".menu {\n    display: grid;\n    background-color: rgb(191, 202, 182);\n    text-align: center;\n    color: #f17900;\n    outline: 1px dashed rgb(17, 27, 177);\n  }"],"names":[],"mappings":"AAAA"}},
+    {"offset": {"line": 8, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 11, "column": 0}, "map": {"version":3,"sources":["file:///Users/siljemelling/Koding/portfolioProjects/todo_list/frontend/src/components/todolist/todo.module.css"],"sourcesContent":[".todoList {\n    background-color: rgba(240, 240, 240, 0.9);\n    padding: 20px;\n    outline: 1px dashed rgb(200, 50, 50);\n    border-radius: 8px;\n  }\n\n"],"names":[],"mappings":"AAAA"}},
+    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

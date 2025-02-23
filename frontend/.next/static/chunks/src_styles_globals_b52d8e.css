@@ -3,4 +3,10 @@ body {
   background-color: #fff7ef;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /*# sourceMappingURL=src_styles_globals_b52d8e.css.map*/

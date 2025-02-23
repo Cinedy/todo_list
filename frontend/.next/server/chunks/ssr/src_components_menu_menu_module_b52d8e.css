@@ -1,11 +1,10 @@
 /* [project]/src/components/menu/menu.module.css [app-client] (css) */
 .menu-module__RpGYTG__menu {
-  grid-column-start: 1;
-  grid-column-end: 1;
+  display: grid;
   background-color: #bfcab6;
-  padding: 20px;
   text-align: center;
   color: #f17900;
+  outline: 1px dashed #111bb1;
 }
 
 /*# sourceMappingURL=src_components_menu_menu_module_b52d8e.css.map*/

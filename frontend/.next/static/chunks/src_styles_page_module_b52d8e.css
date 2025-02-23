@@ -6,11 +6,17 @@
 }
 
 .page-module__UBDEvq__main {
-  grid-template-columns: 1fr 3fr;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  outline: 1px dashed #50b602;
+  background-color: #ff00000d;
 }
 
 .page-module__UBDEvq__pageContent {
+  display: grid;
   grid-template-columns: 1fr 1fr;
+  outline: 1px dashed red;
+  background-color: #2117170d;
 }
 
 /*# sourceMappingURL=src_styles_page_module_b52d8e.css.map*/

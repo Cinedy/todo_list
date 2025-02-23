@@ -1,12 +1,12 @@
 import styles from "../styles/page.module.css";
 import Menu from "../components/menu/menu";
+import Todo from "@/components/todolist/todo";
 
 export default function Home() {
   return (
-    <div className={styles.pageContent}>
+    <div className={styles.main}>
       <Menu />
-      <div>column 2</div>
-      <div>column 3</div>
+      <Todo />
     </div>
   );
 }

@@ -1,8 +1,7 @@
 .menu {
-    grid-column-start: 1;
-    grid-column-end: 1;
+    display: grid;
     background-color: rgb(191, 202, 182);
-    padding: 20px;
     text-align: center;
     color: #f17900;
+    outline: 1px dashed rgb(17, 27, 177);
   }

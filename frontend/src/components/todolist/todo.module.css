@@ -1,0 +1,7 @@
+.todoList {
+    background-color: rgba(240, 240, 240, 0.9);
+    padding: 20px;
+    outline: 1px dashed rgb(200, 50, 50);
+    border-radius: 8px;
+  }
+
