@@ -2,6 +2,6 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/styles/page.module.css"],"sourcesContent":[".gridContainer {\n  display: grid;\n  grid-template-rows: auto 1fr auto;\n  min-height: 100vh;\n}\n\n.main {\n  display: grid;\n  grid-template-columns: 1fr 2fr; /* 1/3 Sidebar (Menu) + 2/3 Main content */\n  outline: 1px dashed rgb(80, 182, 2);\n  background-color: rgba(255, 0, 0, 0.05);\n  }\n\n.pageContent {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  outline: 1px dashed red;\n  background-color: rgba(33, 23, 23, 0.05);\n\n}"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;;;;AAOA"}},
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/styles/page.module.css"],"sourcesContent":[".gridContainer {\n  display: grid;\n  grid-template-rows: auto 1fr auto;\n  min-height: 100vh;\n}\n\n.main {\n  display: grid;\n  grid-template-columns: 1fr 2fr; /* 1/3 Sidebar (Menu) + 2/3 Main content */\n  outline: 1px dashed rgb(80, 182, 2);\n  background-color: rgba(255, 0, 0, 0.05); \n  }\n\n.pageContent {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  outline: 1px dashed red;\n  background-color: rgba(33, 23, 23, 0.05);\n\n}"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;;;;AAOA"}},
     {"offset": {"line": 20, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
 }
