@@ -1,8 +1,12 @@
 .header {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  background: linear-gradient(180deg, #391D1E, #9F5255);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+    background: linear-gradient(180deg, #391D1E, #9F5255);
     width: 100%;
     color: #FFF7EF;
     font-size: 40px;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
   }

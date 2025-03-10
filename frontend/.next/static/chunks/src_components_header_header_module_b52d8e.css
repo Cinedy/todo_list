@@ -2,10 +2,14 @@
 .header-module__6rtY2W__header {
   grid-column-start: 1;
   grid-column-end: 3;
+  display: grid;
   background: linear-gradient(#391d1e, #9f5255);
   width: 100%;
   color: #fff7ef;
   font-size: 40px;
+  height: 55px;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=src_components_header_header_module_b52d8e.css.map*/
