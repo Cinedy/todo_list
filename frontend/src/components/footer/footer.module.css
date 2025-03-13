@@ -1,6 +1,6 @@
 .footer {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 5;
     display: grid;
     background: linear-gradient(0deg, #391D1E, #9F5255);
     width: 100%;

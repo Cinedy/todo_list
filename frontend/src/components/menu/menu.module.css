@@ -2,5 +2,6 @@
     background-color: rgb(191, 202, 182);
     text-align: center;
     color: #f17900;
-    outline: 1px dashed rgb(17, 27, 177);
+    padding: 20px;
+    outline: 1px dashed rgb(200, 50, 50);
   }

@@ -1,7 +1,7 @@
 /* [project]/src/components/header/header.module.css [app-client] (css) */
 .header-module__6rtY2W__header {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 5;
   display: grid;
   background: linear-gradient(#391d1e, #9f5255);
   width: 100%;

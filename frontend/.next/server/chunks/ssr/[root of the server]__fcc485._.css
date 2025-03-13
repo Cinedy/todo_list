@@ -389,20 +389,21 @@ body {
 .page-module__UBDEvq__gridContainer {
   display: grid;
   grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr 3fr;
   min-height: 100vh;
 }
 
 .page-module__UBDEvq__main {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  outline: 1px dashed #50b602;
+  outline: 2px dashed #b302b6;
   background-color: #ff00000d;
 }
 
 .page-module__UBDEvq__pageContent {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  outline: 1px dashed red;
+  outline: 2px dashed #ff0;
   background-color: #2117170d;
 }
 
@@ -410,7 +411,7 @@ body {
 /* [project]/src/components/header/header.module.css [app-client] (css) */
 .header-module__6rtY2W__header {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 5;
   display: grid;
   background: linear-gradient(#391d1e, #9f5255);
   width: 100%;
@@ -425,7 +426,7 @@ body {
 /* [project]/src/components/footer/footer.module.css [app-client] (css) */
 .footer-module__tUdqrq__footer {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 5;
   display: grid;
   background: linear-gradient(0deg, #391d1e, #9f5255);
   width: 100%;

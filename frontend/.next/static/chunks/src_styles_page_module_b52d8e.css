@@ -2,20 +2,21 @@
 .page-module__UBDEvq__gridContainer {
   display: grid;
   grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr 3fr;
   min-height: 100vh;
 }
 
 .page-module__UBDEvq__main {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  outline: 1px dashed #50b602;
+  outline: 2px dashed #b302b6;
   background-color: #ff00000d;
 }
 
 .page-module__UBDEvq__pageContent {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  outline: 1px dashed red;
+  outline: 2px dashed #ff0;
   background-color: #2117170d;
 }
 

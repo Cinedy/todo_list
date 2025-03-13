@@ -2,6 +2,6 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/components/footer/footer.module.css"],"sourcesContent":[".footer {\n    grid-column-start: 1;\n    grid-column-end: 3;\n    display: grid;\n    background: linear-gradient(0deg, #391D1E, #9F5255);\n    width: 100%;\n    height: 40px;\n    justify-content: center;\n    align-items: center;\n    color: #FFF7EF;\n  }"],"names":[],"mappings":"AAAA"}},
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/components/footer/footer.module.css"],"sourcesContent":[".footer {\n    grid-column-start: 1;\n    grid-column-end: 5;\n    display: grid;\n    background: linear-gradient(0deg, #391D1E, #9F5255);\n    width: 100%;\n    height: 40px;\n    justify-content: center;\n    align-items: center;\n    color: #FFF7EF;\n  }"],"names":[],"mappings":"AAAA"}},
     {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
 }

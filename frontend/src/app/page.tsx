@@ -4,7 +4,7 @@ import Todo from "@/components/todolist/todo";
 
 export default function Home() {
   return (
-    <div className={styles.main}>
+    <div className={styles.pageContent}>
       <Menu />
       <Todo />
     </div>
