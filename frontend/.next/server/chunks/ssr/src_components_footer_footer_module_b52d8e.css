@@ -1,8 +1,6 @@
 /* [project]/src/components/footer/footer.module.css [app-client] (css) */
 .footer-module__tUdqrq__footer {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  display: grid;
+  display: flex;
   background: linear-gradient(0deg, #391d1e, #9f5255);
   width: 100%;
   height: 40px;

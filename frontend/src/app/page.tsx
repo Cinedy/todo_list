@@ -1,11 +1,9 @@
-import styles from "../styles/page.module.css";
-import Menu from "../components/menu/menu";
+import styles from "./page.module.css";
 import Todo from "@/components/todolist/todo";
 
 export default function Home() {
   return (
     <div className={styles.pageContent}>
-      <Menu />
       <Todo />
     </div>
   );

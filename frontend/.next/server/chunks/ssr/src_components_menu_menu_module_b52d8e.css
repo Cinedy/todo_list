@@ -1,10 +1,10 @@
 /* [project]/src/components/menu/menu.module.css [app-client] (css) */
 .menu-module__RpGYTG__menu {
+  width: 300px;
   background-color: #bfcab6;
   text-align: center;
   color: #f17900;
   padding: 20px;
-  outline: 1px dashed #c83232;
 }
 
 /*# sourceMappingURL=src_components_menu_menu_module_b52d8e.css.map*/

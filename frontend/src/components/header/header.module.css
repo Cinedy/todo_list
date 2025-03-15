@@ -1,7 +1,5 @@
 .header {
-    grid-column-start: 1;
-    grid-column-end:5;
-    display: grid;
+    display: flex;
     background: linear-gradient(180deg, #391D1E, #9F5255);
     width: 100%;
     color: #FFF7EF;

@@ -1,0 +1,20 @@
+/* [project]/src/app/layout.module.css [app-client] (css) */
+.layout-module__L5FxyW__container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.layout-module__L5FxyW__main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #2117170d;
+}
+
+.layout-module__L5FxyW__content {
+  display: flex;
+  height: calc(100vh - 95px);
+}
+
+/*# sourceMappingURL=src_app_layout_module_b52d8e.css.map*/

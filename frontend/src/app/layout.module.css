@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+  
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(33, 23, 23, 0.05);
+}
+
+.content {
+    display: flex;
+    height: calc(100vh - 95px);
+}
