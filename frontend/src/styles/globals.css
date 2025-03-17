@@ -7,3 +7,14 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  text-decoration: none;
+}
+

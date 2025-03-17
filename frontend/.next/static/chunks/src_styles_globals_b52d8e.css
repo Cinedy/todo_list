@@ -9,4 +9,14 @@ body {
   box-sizing: border-box;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=src_styles_globals_b52d8e.css.map*/

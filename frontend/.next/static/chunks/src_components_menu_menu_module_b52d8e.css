@@ -1,10 +1,24 @@
 /* [project]/src/components/menu/menu.module.css [app-client] (css) */
 .menu-module__RpGYTG__menu {
   width: 300px;
-  background-color: #bfcab6;
-  text-align: center;
-  color: #f17900;
-  padding: 20px;
+  background-color: #faefe3;
+  text-align: left;
+  color: #000;
+  padding: 100px 80px 80px;
+}
+
+.menu-module__RpGYTG__menu li a {
+  display: block;
+  width: 100%;
+}
+
+li a:hover {
+  background-color: #fff7ef;
+  color: #9f5255;
+}
+
+.menu-module__RpGYTG__menu a, a:visited {
+  color: #000;
 }
 
 /*# sourceMappingURL=src_components_menu_menu_module_b52d8e.css.map*/

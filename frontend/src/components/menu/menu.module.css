@@ -1,7 +1,22 @@
 .menu {
     width: 300px;
-    background-color: rgb(191, 202, 182);
-    text-align: center;
-    color: #f17900;
-    padding: 20px;
+    background-color: #faefe3;
+    text-align: left; 
+    color: #000000;
+    padding: 100px 80px 80px 80px;
   }
+
+.menu li a {
+  display: block; /* Makes the links fill the width */
+  width: 100%; /* Ensures equal width for all items */
+}
+
+li a:hover {
+  background-color: #FFF7EF;
+  color: #9F5255;
+}
+
+.menu a, a:visited {
+  color: black;
+}
+
