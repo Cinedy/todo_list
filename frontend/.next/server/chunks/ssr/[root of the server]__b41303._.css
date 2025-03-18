@@ -9,6 +9,16 @@ body {
   box-sizing: border-box;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  text-decoration: none;
+}
+
 
 /* [next]/internal/font/google/roboto_459e61e0.module.css [app-client] (css) */
 @font-face {
@@ -393,9 +403,15 @@ body {
 }
 
 .layout-module__L5FxyW__main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #fff7ef;
+}
+
+.layout-module__L5FxyW__content {
+  display: flex;
   height: calc(100vh - 95px);
-  outline: 2px dashed #b302b6;
-  background-color: #ff00000d;
 }
 
 

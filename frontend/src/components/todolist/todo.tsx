@@ -8,6 +8,7 @@ export default function Todo() {
                 <li>✅ Finish project setup</li>
                 <li>📋 Add grid layout</li>
                 <li>🛠️ Style components</li>
+                <li> Add task</li>
             </ul>
         </div>
     );

@@ -2,6 +2,6 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/components/menu/menu.module.css"],"sourcesContent":[".menu {\n    width: 300px;\n    background-color: #faefe3;\n    text-align: left; \n    color: #000000;\n    padding: 100px 80px 80px 80px;\n  }\n\n.menu li a {\n  display: block; /* Makes the links fill the width */\n  width: 100%; /* Ensures equal width for all items */\n}\n\nli a:hover {\n  background-color: #FFF7EF;\n  color: #9F5255;\n}\n\n.menu a, a:visited {\n  color: black;\n}\n\n"],"names":[],"mappings":"AAAA;;;;;;;;AAQA;;;;;AAKA;;;;;AAKA"}},
-    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/components/menu/menu.module.css"],"sourcesContent":[".menu {\n    width: 300px;\n    background-color: #faefe3;\n    text-align: left; \n    color: #000000;\n    padding: 100px 80px 80px 80px;\n    font-size: 1.3vw;\n  }\n\n.menu li a {\n  display: block; /* Makes the links fill the width */\n  width: 100%; /* Ensures equal width for all items */\n}\n\nli a:hover {\n  background-color: #FFF7EF;\n  color: #9F5255;\n}\n\n.menu a, a:visited {\n  color: black;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;AASA;;;;;AAKA;;;;;AAKA"}},
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
 }
